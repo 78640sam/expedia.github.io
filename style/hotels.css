@@ -243,11 +243,12 @@ img {}
 }
 
 
-#map-loction-id {
+/* #map-loction-id {
+  
     background-color: white;
     width: 80%;
 
-}
+} */
 
 .class-property {
     padding: 10px;
