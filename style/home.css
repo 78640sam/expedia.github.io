@@ -1,0 +1,359 @@
+* {
+    font-family: "Helvetica Neue", Arial, "Lucida Grande", sans-serif;
+}
+
+/* <!-- Navbar start --> */
+#navbar {
+    background-color: white;
+    height: 100px;
+    width: 1200px;
+    margin: auto;
+    font-family: "Helvetica Neue", Arial, "Lucida Grande", sans-serif;
+    font-size: 15px;
+    padding: 10px;
+    color: #343b53;
+
+}
+
+.nav-main-class {
+    display: flex;
+}
+
+.nav-main-img {
+
+    margin: 10px;
+    margin-right: 600px;
+}
+
+.nav-main-top {
+    margin: 20px;
+    margin-left: 25px;
+}
+
+.nav-main-top-1 {
+
+    margin: 20px;
+    margin-left: 25px;
+    text-decoration: none;
+    color: black;
+}
+
+.nav-main-top-1:hover {
+    color: blue;
+}
+
+.nav-main-top:hover {
+    color: blue;
+}
+
+#nav-select {
+    border: none;
+}
+#nav-signin{
+
+}
+.form-popup {
+display: none;
+position: fixed;
+
+
+right: 0px;
+margin-right: 100px;
+margin-top: 40px;
+height:400px;
+border: 3px solid #f1f1f1;
+z-index: 9;
+background-color: white;
+padding:20px;
+}
+.class-sub-btn{
+width:300px;
+margin-left:70px;
+margin-top:20px;
+border-radius:20px;
+padding:10px;
+margin-bottom:20px;
+cursor:pointer;
+}
+#id-create-acc{
+margin-left:140px;
+text-align:center;
+
+}
+#link-signin-id{
+text-decoration:none;
+font-size:17px;
+
+color:white;
+background-color:blue;
+
+
+}
+.form-popup>p{
+
+color:grey;
+}
+#id-create-acc:hover{
+background-color:blue;
+color:white;
+width:300px;
+margin-left:120px;
+margin-top:20px;
+border-radius:20px;
+padding:13px;
+margin-bottom:20px;
+text-decoration:none;
+cursor:pointer;
+
+}
+
+
+/* <!-- Navbar end --> */
+
+.class-main-homepage {
+    border: 1px solid gray;
+    width: 80%;
+    height: 370px;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 40px;
+    font-family: "Helvetica Neue", Arial, "Lucida Grande", sans-serif;
+}
+
+.class-main-second-homepage {
+    display: flex;
+    width: 50%;
+    margin: auto;
+
+
+}
+
+.class-main-input-homepage {
+    display: flex;
+    /* display: grid;
+    grid-template-columns: 35% 20% 20% 25%;
+    grid-gap: 15px; */
+    margin: auto;
+   
+    padding:15px;
+
+}
+.class-main-home{
+    background-color: grey;
+    border-radius: 6px;
+    height:40px;padding:16px;
+}
+
+.class-input-homepage {
+    border-radius: 12px;
+
+    height: 50px;
+    border: 1px solid grey;
+    padding:5px;
+
+}
+#select-id-1{
+    width:550px;
+    margin-top: 20px;
+}
+input::-webkit-input-placeholder {
+    font-size: 20px;
+    line-height: 3;
+}
+
+#id {
+    width: 35%;
+   
+}
+
+#datein {
+    width: 15%;
+  
+
+}
+
+#dateout {
+  
+    width: 15%;
+   
+
+}
+
+#id-1 {
+    margin-right:30px;
+   width:20%
+
+   
+}
+
+#check {
+    width: 20px;
+}
+
+
+
+#btn-id-homepage {
+    margin-left: 40%;
+    height: 60px;
+    border-radius: 10px;
+    background-color: blue;
+    color: white;
+    padding: 5px;
+    font-size: 20px;
+    width: 250px
+   
+}
+
+input {
+    width: 300px;
+    height: 60px;
+    border-radius: 10px;
+    margin: auto;
+    margin-left: 40px;
+    margin-top: 15px;
+}
+
+
+.class-main-packages {
+    text-decoration: none;
+    color: #343b53;
+    padding: 20px;
+    margin: auto;
+}
+
+#id-hr {
+    width: 90%;
+    margin: auto;
+}
+
+.class-image-1 {
+    background-image: url("https://a.travel-assets.com/travel-assets-manager/gmvd-1482-bookearly-emea/667x320.jpg");
+    width: 80%;
+    margin: auto;
+    height: 300px;
+    border-radius: 10px;
+
+    margin-top: 100px;
+    background-size: cover;
+    font-size: 25px;
+    color: white;
+}
+
+#id-content {
+    
+    position: absolute;
+    bottom: -120px;
+    
+}
+
+.class-plan-your-trip {
+    display: grid;
+    grid-template-columns: 30% 55% 18%;
+    width: 82%;
+    margin: auto;
+    height: 330px;
+    border: 1px solid grey;
+    border-radius: 10px;
+
+    margin-top: 100px;
+}
+
+.class-image-img {
+    width: 350px;
+    height: 330px;
+
+}
+
+.class-image-barcode {
+    width: 70%;
+
+}
+
+.mid-class-in>h1 {
+    font-size: 40px;
+}
+
+.class-Qrcode {
+
+    margin-left: 15px;
+
+    font-size: 20px;
+}
+
+#button-id {
+    color: white;
+    background-color: blue;
+    font-size: 20px;
+}
+
+.class-input-getapp {
+    border-radius: 15px;
+    width: 190px;
+    height: 60px;
+    border: 2px solid grey;
+}
+
+input::-webkit-input-placeholder {
+    font-size: 20px;
+    line-height: 3;
+}
+
+.content-Explore {
+
+    text-decoration: none;
+    color: blue;
+
+}
+
+.content-Explore:hover {
+    text-decoration: underline;
+}
+
+.content-Explore-1 {
+    margin-top: 100px;
+    text-align: center;
+}
+
+/* footer start */
+.footer-class {
+    display: grid;
+    grid-template-columns: 17% 17% 22% 20% 22%;
+    width: 80%;
+    margin: auto;
+    margin-top: 100px;
+}
+
+
+a {
+    text-decoration: none;
+
+}
+
+a:hover {
+    text-decoration: underline;
+}
+.footer-img{
+   width:20%
+}
+
+ul {
+    margin-left: 70px;
+
+
+}
+
+#footer-last-img {
+    margin: auto;
+    display: block;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#footer-last-para {
+    text-align: center;
+    color: #343b53;
+    margin-bottom: 100px;
+}
+
+
+/* footer end */

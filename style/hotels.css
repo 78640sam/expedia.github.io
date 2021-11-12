@@ -1,0 +1,271 @@
+body {
+    background-color: #F8F5F4;
+}
+
+* {
+    font-family: "Helvetica Neue", Arial, "Lucida Grande", sans-serif;
+}
+
+/* <!-- Navbar start --> */
+#navbar {
+    background-color: white;
+    height: 100px;
+    width: 1200px;
+    margin: auto;
+    font-family: "Helvetica Neue", Arial, "Lucida Grande", sans-serif;
+    font-size: 15px;
+    padding: 10px;
+    color: #343b53;
+
+}
+
+.nav-main-class {
+    display: flex;
+}
+
+.nav-main-img {
+
+    margin: 10px;
+    margin-right: 600px;
+}
+
+.nav-main-top {
+    margin: 20px;
+    margin-left: 25px;
+}
+
+.nav-main-top-1 {
+
+    margin: 20px;
+    margin-left: 25px;
+    text-decoration: none;
+    color: black;
+}
+
+.nav-main-top-1:hover {
+    color: blue;
+}
+
+.nav-main-top:hover {
+    color: blue;
+}
+
+#nav-select {
+    border: none;
+}
+
+.form-popup {
+    display: none;
+    position: fixed;
+
+
+    right: 0px;
+    margin-right: 100px;
+    margin-top: 40px;
+    height: 400px;
+    border: 3px solid #f1f1f1;
+    z-index: 9;
+    background-color: white;
+    padding: 20px;
+}
+
+.class-sub-btn {
+
+    width: 300px;
+    margin-left: 70px;
+    margin-top: 20px;
+    border-radius: 20px;
+    padding: 10px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+
+
+}
+
+#id-create-acc {
+    margin-left: 140px;
+    text-align: center;
+
+
+}
+
+#link-signin-id {
+    text-decoration: none;
+    font-size: 17px;
+
+    color: white;
+    background-color: blue;
+
+
+}
+
+.form-popup>p {
+
+    color: grey;
+}
+
+#id-create-acc:hover {
+    background-color: blue;
+    color: white;
+    width: 300px;
+    margin-left: 120px;
+    margin-top: 20px;
+    border-radius: 20px;
+    padding: 13px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    cursor: pointer;
+
+}
+
+
+/* <!-- Navbar end --> */
+#container-main-div {
+    width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    cursor: pointer;
+}
+
+#container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 100%;
+    margin: auto;
+    height: 160px;
+    grid-gap: 3%;
+    border-radius: 10px;
+
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+#container>div {
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.image-class {
+    display: grid;
+    grid-template-columns: 35% 52% 13%;
+    height: 160px;
+    background-color: white;
+}
+
+
+
+img {}
+
+#img-id-hotels {
+    width: 100%;
+    height: 160px;
+    border-radius: 10px;
+}
+
+#para-div-id {
+    padding: 10px;
+
+}
+
+#item-price {
+    font-size: 24px;
+    margin-top: 6px;
+
+
+}
+
+#offer-id {
+
+    font-size: 10px;
+    padding: 5px;
+    color: white;
+    background-color: #0d7066;
+    border-radius: 20px;
+
+
+}
+
+.class-name {
+    margin-top: -7px;
+
+}
+
+.class-location {
+    margin-top: -18px;
+    font-size: 14px;
+}
+
+.class-price {
+    margin-top: 60px;
+
+}
+
+.class-details {
+    font-size: 13px;
+    color: rgb(94, 92, 92);
+}
+
+#per-night {
+
+    font-size: 10px;
+}
+
+#per-night::first-line {
+    color: rgb(99, 94, 94);
+}
+
+.review-class {
+
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.class-map {
+    background-image: url("https://i0.wp.com/cssscript.com/wp-content/uploads/2018/03/Simple-Location-Picker.png?fit=561%2C421&ssl=1");
+    height: 200px;
+    width: 100%;
+    margin: auto;
+
+}
+
+#first-side {
+    padding: 40px;
+
+}
+
+#surch-box-id {
+    width: 250px;
+    height: 40px;
+    border-radius: 15px;
+}
+
+
+#map-loction-id {
+    background-color: white;
+    width: 80%;
+
+}
+
+.class-property {
+    padding: 10px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+#filter-id {
+
+    float: right;
+    width: 200px;
+    height: 40px;
+
+    border-radius: 10px;
+
+}
+
+.traveller-class {
+    font-size: 12px;
+}
