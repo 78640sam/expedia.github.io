@@ -1,19 +1,19 @@
-//  <--- pop-up js-code start------>
+//<--- pop-up js-code start------>
 
 function openForm() {
-    document.getElementById("myForm").style.display = "block";
+    document.getElementById("myForm1").style.display = "block";
 }
 
 function closeForm() {
-    document.getElementById("myForm").style.display = "none";
-  }
+    document.getElementById("myForm1").style.display = "none";
+}
 //  <--- pop-up js-code end------>
 
 function signin(e) {
 
     e.preventDefault();
     let myForm = document.getElementById("myForm");
-    // console.log("myForm:",myForm)
+    console.log("myForm:", myForm)
 
     let email = myForm.email.value;
     let password = myForm.password.value;

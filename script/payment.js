@@ -55,7 +55,7 @@ function showProducts() {
 
         h2.innerHTML = "Total Rs. " + item.MRP + "<br>" + `<p id="per-night">pernight<br>Includes taxes & fees</p>`;
         h2.id = "item-price";
-        
+
 
         h2.onclick = function () {
             addtocard(item);
@@ -68,15 +68,15 @@ function showProducts() {
         addtocard_btn.className = "btn-btn-reserve"
 
         addtocard_btn.onclick = function () {
-           
-           
+
+
             addtocard(item);
         };
 
 
         newdiv.append(img);
         paradiv.append(h3, paragraph1, paragraph, review);
-        pricediv.append( h2);
+        pricediv.append(h2);
         imageDiv.append(newdiv, paradiv, pricediv);
 
         mainDiv.append(imageDiv);
@@ -85,17 +85,17 @@ function showProducts() {
 
 }
 showProducts();
-function checkout(){
+function checkout() {
     alert("Payment done booking confirmed ");
-    window.location="home.html";
+    window.location = "home.html";
 
     localStorage.clear();
 }
 
 function openForm() {
-    document.getElementById("myForm").style.display = "block";
+    document.getElementById("myForm1").style.display = "block";
 }
 
 function closeForm() {
-    document.getElementById("myForm").style.display = "none";
+    document.getElementById("myForm1").style.display = "none";
 }

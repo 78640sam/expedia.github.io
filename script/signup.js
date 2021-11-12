@@ -1,20 +1,20 @@
 //  <--- pop-up js-code start------>
 
 function openForm() {
-    document.getElementById("myForm").style.display = "block";
+    document.getElementById("myForm1").style.display = "block";
 }
 
 function closeForm() {
-    document.getElementById("myForm").style.display = "none";
-  }
-//  <--- pop-up js-code end------>
+    document.getElementById("myForm1").style.display = "none";
+}
+// //  <--- pop-up js-code end------>
 
 function signup(e) {
     e.preventDefault();
     let myForm = document.getElementById("myForm");
     // console.log("myForm:",myForm)
-    let firstname = myForm.firstname.value;
-    let surname = myForm.surname.value;
+    let name = myForm.name.value;
+
     let email = myForm.email.value;
     let password = myForm.password.value;
     let conpassword = myForm.conpassword.value;
@@ -29,8 +29,8 @@ function signup(e) {
         }
         //0. grab and prepare user data
         let user = {
-            firstname,
-            surname,
+            name,
+
             email,
             password,
 
