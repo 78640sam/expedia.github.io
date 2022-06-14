@@ -18,4 +18,4 @@ their data will come from local storage and after clicking reserve go to the pay
 it will show alert “payment done booking confirmed”. 
 we ho to again home page so that’s all about our Project. 
 Thank You.
-Hi
+
