@@ -1,5 +1,5 @@
 The main challenge was to build this website “Expedia” without using any library,
-so accordingly we have designed this website.
+so accordingly we have designed this website. Hu
 We made dynamic pages for displaying hotels descriptions,
 Show-hotel page, and payment page using javascript (DOM, local storage).
 We also designed the signup and sign-in page,
@@ -21,3 +21,4 @@ Thank You.
 
 
 Hi
+H
